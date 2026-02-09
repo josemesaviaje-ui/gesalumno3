@@ -1,0 +1,27 @@
+{
+  "name": "Gestión Viaje Estudios",
+  "short_name": "Viaje Estudios",
+  "description": "Gestión de alumnos, actividades, proveedores, pagos e informes.",
+  "lang": "es-ES",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "background_color": "#F5F7FB",
+  "theme_color": "#184778",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
